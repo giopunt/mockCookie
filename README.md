@@ -1,5 +1,5 @@
 # mockCookie
-A simple way to mock document.cookie functionality in your Javascript when testing using Jasmine.
+A simple way to mock document.cookie functionality in your Javascript and be alble to test using Jasmine.
 
 My recommendation is always to define and use an internal variable using window or document (or any other browser global object).
 This will give you the possibility to mock the behaviour of your code and make it flexible and testable.
