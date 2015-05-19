@@ -6,6 +6,7 @@ This will give you the possibility to mock the behaviour of your code and make i
 
 # Usage
 
+```javascript
 var AwesomeObj = function(window, document) {
     this.location = window.location;
     this.document = document;
@@ -49,11 +50,13 @@ AwesomeObj.prototype.setCookie = function(cname, cvalue, exdays) {
 };
 
 new AwesomeObj(window, document);
+```
 
 # TESTS
 
 When you test you'll be able to use our mockDocument to see if the cookie has been set:
 
+```javascript
 describe("AwesomeObj Spec", function() {
     
     var mockWindow;
@@ -161,3 +164,4 @@ describe("AwesomeObj Spec", function() {
     });
     
 });
+```
