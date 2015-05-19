@@ -6,11 +6,15 @@ This will give you the possibility to mock the behaviour of your code and make i
 
 # Usage
 
+We are gonna write an object that an *awesome* called parameter is present in the url and,
+if it is, it will check if the value of a cookie called *awesomeCookie* is the same, if is not 
+the code will update the cookie value with the *awesome* parameter value.
+
 ```javascript
 var AwesomeObj = function(window, document) {
     this.location = window.location;
     this.document = document;
-    this.checkAffIdPrameterExistence();
+    this.checkAwesomePrameterExistence();
 };
 
 AwesomeObj.prototype.checkAffIdPrameterExistence = function() {
