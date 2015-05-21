@@ -53,6 +53,7 @@ AwesomeObj.prototype.setCookie = function(cname, cvalue, exdays) {
     this.document.cookie = cname + "=" + cvalue + "; domain=; path=/; " + expires;
 };
 
+//Object Constructor
 new AwesomeObj(window, document);
 ```
 
