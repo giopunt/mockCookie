@@ -17,7 +17,7 @@ var AwesomeObj = function(window, document) {
     this.checkAwesomePrameterExistence();
 };
 
-AwesomeObj.prototype.checkAffIdPrameterExistence = function() {
+AwesomeObj.prototype.checkAwesomePrameterExistence = function() {
     var awesomeQueryParam = this.getParameterByName('awesome');
     var awesomeCookieValue = this.getCookie('awesomeCookie');
     
